@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Links [
+        <!ELEMENT Links (Link)*>
+        <!ELEMENT Link (Id|Name|Path)*>
+        <!ELEMENT Id (#PCDATA)>
+        <!ELEMENT Name (#PCDATA)>
+        <!ELEMENT Path (#PCDATA)>
+        ]>
+<Links>
+
+    <!-- Top navigation menu section -->
+
+    <Link>
+        <Id>hp.home</Id>
+        <Name>Home</Name>
+        <Path>//*[@id="links-site"]/ul/li[1]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.subjects</Id>
+        <Name>Subjects</Name>
+        <Path>//*[@id="links-site"]/ul/li[2]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.about.wiley</Id>
+        <Name>About Wiley</Name>
+        <Path>//*[@id="links-site"]/ul/li[3]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.contact.us</Id>
+        <Name>Contact Us</Name>
+        <Path>//*[@id="links-site"]/ul/li[4]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.help</Id>
+        <Name>Help</Name>
+        <Path>//*[@id="links-site"]/ul/li[5]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.receive.wiley.arrow</Id>
+        <Name></Name>
+        <Path>//*[@id="id31"]</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.receive.wiley.input_field</Id>
+        <Name></Name>
+        <Path>//*[@id="EmailAddress"]</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.search.field</Id>
+        <Name></Name>
+        <Path>//*[@id="query"]</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.search.icon</Id>
+        <Name></Name>
+        <Path>//*[@id="links-site"]/form/fieldset/input[2]</Path>
+    </Link>
+
+    <!-- Resources sub-header section -->
+
+    <Link>
+        <Id>hp.students</Id>
+        <Name>Students</Name>
+        <Path>//*[@id="homepage-links"]/ul/li[1]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.authors</Id>
+        <Name>Authors</Name>
+        <Path>//*[@id="homepage-links"]/ul/li[2]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.instructors</Id>
+        <Name>Instructors</Name>
+        <Path>//*[@id="homepage-links"]/ul/li[3]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.librarians</Id>
+        <Name>Librarians</Name>
+        <Path>//*[@id="homepage-links"]/ul/li[4]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.societies</Id>
+        <Name>Societies</Name>
+        <Path>//*[@id="homepage-links"]/ul/li[5]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.conferences</Id>
+        <Name>Conferences</Name>
+        <Path>//*[@id="homepage-links"]/ul/li[6]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.booksellers</Id>
+        <Name>Booksellers</Name>
+        <Path>//*[@id="homepage-links"]/ul/li[7]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.corporations</Id>
+        <Name>Corporations</Name>
+        <Path>//*[@id="homepage-links"]/ul/li[8]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>hp.institutions</Id>
+        <Name>Institutions</Name>
+        <Path>//*[@id="homepage-links"]/ul/li[9]/a</Path>
+    </Link>
+
+    <!-- Students page -->
+
+    <Link>
+        <Id>st.resources.for</Id>
+        <Name>Resources For</Name>
+        <Path>//*[@id="sidebar"]/div/ul/li/a</Path>
+    </Link>
+
+    <Link>
+        <Id>st.header</Id>
+        <Name>Students</Name>
+        <Path>//*[@id="page-title"]/h1</Path>
+    </Link>
+
+    <Link>
+        <Id>st.authors</Id>
+        <Name>Authors</Name>
+        <Path>//*[@id="sidebar"]/div/ul/li/ul/li[1]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>st.librarians</Id>
+        <Name>Librarians</Name>
+        <Path>//*[@id="sidebar"]/div/ul/li/ul/li[2]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>st.booksellers</Id>
+        <Name>Booksellers</Name>
+        <Path>//*[@id="sidebar"]/div/ul/li/ul/li[3]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>st.instructors</Id>
+        <Name>Instructors</Name>
+        <Path>//*[@id="sidebar"]/div/ul/li/ul/li[4]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>st.students</Id>
+        <Name>Students</Name>
+        <Path>//*[@id="sidebar"]/div/ul/li/ul/li[5]/span</Path>
+    </Link>
+
+    <!-- Government Employees does not exist -->
+    <Link>
+        <Id>st.government.employees</Id>
+        <Name>Government Employees</Name>
+        <Path>//*[@id="sidebar"]/div/ul/li/ul/li[6]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>st.societies</Id>
+        <Name>Societies</Name>
+        <Path>//*[@id="sidebar"]/div/ul/li/ul/li[6]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>st.corporate.partners</Id>
+        <Name>Corporate Partners</Name>
+        <Path>//*[@id="sidebar"]/div/ul/li/ul/li[7]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>st.students.active</Id>
+        <Name>Students</Name>
+        <Path>//*[@id="sidebar"]/div/ul/li/ul/li[5]/span</Path>
+    </Link>
+
+    <!-- Search result page -->
+
+    <Link>
+        <Id>sr.result.block</Id>
+        <Name></Name>
+        <Path>//*[@id="search-results"]</Path>
+    </Link>
+
+    <Link>
+        <Id>sr.result.item</Id>
+        <Name></Name>
+        <Path>//*[@class="product-listing size100"]</Path>
+    </Link>
+
+    <Link>
+        <Id>sr.result.item.title</Id>
+        <Name></Name>
+        <Path>//*[@class="product-title"]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>sr.result.item.title</Id>
+        <Name></Name>
+        <Path>//*[@class="product-title"]/a</Path>
+    </Link>
+
+    <Link>
+        <Id>sr.result.book.header</Id>
+        <Name></Name>
+        <Path>//*[@id="main-content-left"]/table/tbody/tr/td/div[2]/h1</Path>
+    </Link>
+</Links>
