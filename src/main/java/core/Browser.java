@@ -19,7 +19,6 @@ public class Browser {
      */
     public static WebDriver getInstance() {
         if (browser == null) {
-            System.setProperty("webdriver.chrome.driver","D:/chromedriver.exe");
             browser = new ChromeDriver();
         }
 
