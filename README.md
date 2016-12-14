@@ -1,1 +1,13 @@
-# InterviewTask
+Интересности.
+Я так понимаю, что документ с заданием уже устарел - потому что:
+1) 'Students' url'ы не совпадают. 
+    Актуальный http://eu.wiley.com/WileyCDA/Section/id-404702.html 
+	Ожидаемый http://www.wiley.com/WileyCDA/Section/id-404702.html
+2) 'Resources For' menu не содержит элемента меню 'Government Employees'.
+4) 'Institutions' урл'ы не совпадают.
+    Aктуальный 'https://edservices.wiley.com/'
+	Ожидаемый 'http://wileyedsolutions.com/'
+
+И вот возник интересный вопрос - что понимается под кликабельностью элемента? 
+Каждый элемент на странице кликабельный. 
+Я интерпретировал так - то что элемент не кликабельный то есть по клику на элемент мы остаемся на странице.
